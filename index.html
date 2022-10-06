@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Flag guessing game</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="game">
+    <div class="score">
+    <div class="lineBox">
+      <div id="line"></div>
+    </div>
+    <p id="score">0</p>
+    </div>
+    <div class="flagBox">
+      <img id="img">
+    </div>
+    <h1>Which country's flag is this</h1>
+    <div class="optionBox">
+      <div id="option1" class="option">Libya</div>
+      <div id="option2" class="option">Libya</div>
+      <div id="option3" class="option">Libya</div>
+      <div id="option4" class="option">United States Of America</div>
+    </div>
+  </div>
+  
+  <div id="lose">
+    <h2>You lose!</h2>
+    <p id="loseScore">0</p>
+    <button id="loseBtn">Play Again</button>
+  </div>
+  
+  <div id="win">
+    <h2>You Won!</h2>
+    <p>30</p>
+    <button id="winBtn">Play Again</button>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
